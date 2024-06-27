@@ -30,31 +30,7 @@ The \`Metarcrafters\` token contract is a basic smart contract on the Ethereum b
 3. Compile the contract by selecting the appropriate compiler version.
 4. Deploy the contract using the Remix interface.
 
-#### Using Truffle
-
-1. Initialize a Truffle project and create a new Solidity file in the \`contracts\` directory.
-2. Paste the Solidity code into the file.
-3. Compile the contract using the following command:
-   \`\`\`sh
-   truffle compile
-   \`\`\`
-4. Deploy the contract to your preferred network:
-   \`\`\`sh
-   truffle migrate --network <network_name>
-   \`\`\`
-
-#### Using Hardhat
-
-1. Initialize a Hardhat project and create a new Solidity file in the \`contracts\` directory.
-2. Paste the Solidity code into the file.
-3. Compile the contract using:
-   \`\`\`sh
-   npx hardhat compile
-   \`\`\`
-4. Deploy the contract using:
-   \`\`\`sh
-   npx hardhat run scripts/deploy.js --network <network_name>
-   \`\`\`
+You can also execute thhe program in your preferred IDE if you know how to do so.
 
 ## Executing Functions
 
